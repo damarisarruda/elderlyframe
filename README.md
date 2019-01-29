@@ -87,7 +87,7 @@ O LinearLayout possibilita organizar seus componentes de duas formas: alinhados 
 
 
 <h3>TouchZoomFrameLayout</h3>
-<p>A função deste componente é de ampliar/diminuir através do movimento de pinçar os dedos sobre a tela, abrir e fechar.<br>
+<p>A função deste componente é que ao detectar alguns toques ao redor de um ponto específico, a área ao redor seja ampliada para que o usuário consiga realizar o toque no local desejado.<br>
 O FrameLayout organiza todos componentes em formato de pilha onde o último componente adicionado fica no topo da pilha, sobrepondo todos deixando só o último visível ao usuário.<br>
 O FrameLayout é projetado para exibir um único item por vez, ou para bloquear uma área na tela para exibir um único item. É um dos tipos mais simples de objeto de layout.Todos os elementos filhos do FrameLayout são fixados para o canto superior esquerdo da tela, e ao arrastar o componente para o FrameLayout ele sugestiona a gravidade onde o elemento se posicionará.</p>
 
@@ -109,16 +109,27 @@ O RelativeLayout permite posicionar um componente relativo a outro, por exemplo,
 ```
 
 
+<h3>SimpleRotationImageView</h3>
+<p>A função deste componente é de possibilitar que o usuário consiga rotacionar objetos na tela usando apenas um dedo.</p> 
+
+```
+<br.com.elderlyframe.view.image.SimpleRotationImageView>
+//seu código aqui
+</br.com.elderlyframe.view.image.SimpleRotationImageView>
+```
 
 
+<h3>SpeechText</h3>
+<p>A função deste componente é capturar o som emitido e convertê-lo em texto. Ele cria três objetos na tela: label, campo de texto e o botão que dispara a gravação. Esses objetos são organizados linearmente.</p> 
+
+```
+<br.com.elderlyframe.view.text.SpeechText>
+//seu código aqui
+</br.com.elderlyframe.view.text.SpeechText>
+```
+
+O atributo app:iconSrc="@drawable/image" deve ser adicionado pois corresponde ao ícone do microfone.
 
 
-
-
-
-
-
-
-
-
-Link para dowload da biblioteca [elderyframelib-release.aar](https://raw.githubusercontent.com/damarisarruda/elderlyframe/master/app/src/main/res/elderlyframelib-release.aar)
+<br><br><br>
+Link para dowload do arquivo lib [elderyframelib-release.aar](https://raw.githubusercontent.com/damarisarruda/elderlyframe/master/app/src/main/res/elderlyframelib-release.aar)
