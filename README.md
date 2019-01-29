@@ -120,7 +120,8 @@ O RelativeLayout permite posicionar um componente relativo a outro, por exemplo,
 
 
 <h3>SpeechText</h3>
-<p>A função deste componente é capturar o som emitido e convertê-lo em texto. Ele cria três objetos na tela: label, campo de texto e o botão que dispara a gravação. Esses objetos são organizados linearmente.</p> 
+<p>A função deste componente é capturar o som emitido e convertê-lo em texto. Ele cria três objetos na tela: label, campo de texto e o botão que dispara a gravação. Esses objetos são organizados linearmente.<br>
+O LinearLayout possibilita organizar seus componentes de duas formas: alinhados horizontalmente ou alinhados verticalmente. Para decidir qual será a orientação deve-se trabalhar com a notação android:orientation.</p> 
 
 ```
 <br.com.elderlyframe.view.text.SpeechText>
@@ -128,7 +129,7 @@ O RelativeLayout permite posicionar um componente relativo a outro, por exemplo,
 </br.com.elderlyframe.view.text.SpeechText>
 ```
 
-O atributo app:iconSrc="@drawable/image" deve ser adicionado pois corresponde ao ícone do microfone.
+O atributo *app:iconSrc="@drawable/image"* deve ser adicionado pois corresponde ao ícone do microfone.
 
 
 <br><br><br>
